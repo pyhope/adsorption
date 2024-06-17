@@ -1,2 +1,6 @@
-# To-do list for the adsorption project
+# Gibbs dividing surface for the adsorption project
 
+## Instructions:
+
+
+## To-do list:
