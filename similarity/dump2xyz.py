@@ -38,7 +38,7 @@ def main(dump_file, output_file, element_order):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Convert LAMMPS dump to extended XYZ with specified elements.')
-    parser.add_argument('--dump_file',default='npt.dump', help='Path to the LAMMPS dump file')
+    parser.add_argument('--dump_file',default='selected.dump', help='Path to the LAMMPS dump file')
     parser.add_argument('--output_file',default='merge.xyz', help='Path for the output XYZ file')
     parser.add_argument('elements', nargs='+', help='List of element symbols in the order of their types in LAMMPS dump')
     

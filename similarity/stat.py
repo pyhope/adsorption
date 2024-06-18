@@ -16,7 +16,7 @@ parser.add_argument("--project_axis","-p",default=2,type=int,help="default 2(z),
 parser.add_argument("--step","-s",default=1,type=int,help="step")
 parser.add_argument("--file","-f",type=str,help="path to xyz file to analyze, default is merge.xyz in the cwd")
 parser.add_argument("--show","-sh",default=True,action='store_false',help="Default: show results")
-parser.add_argument("--num_interface_w","-nw",type=int,help="Default: larger, btetter, must set!")
+parser.add_argument("--num_interface_w","-nw",type=int,help="Default: must set!")
 parser.add_argument("--mode","-m",help="Default: mass mode, k or mass, must set!")
 
 

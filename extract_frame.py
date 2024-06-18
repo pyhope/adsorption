@@ -3,7 +3,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Extract a frame from LAMMPS dump file.")
 parser.add_argument("--input_filename", "-i", type=str, default='npt.dump', help="Input filename (default: npt.dump)")
 parser.add_argument("--output_filename", "-o", type=str, default='selected.dump', help="Output filename (default: selected.dump)")
-parser.add_argument("--timestep", "-t", type=int, help="Timestep of the target frame")
+parser.add_argument("--timestep", "-t", type=int, help="Timestep of the target frame. The last frame will be used if not provided.")
 
 args = parser.parse_args()
 
