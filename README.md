@@ -51,7 +51,7 @@ optional arguments:
 ```sh
 python similarity/stat.py -nw 2 -m mass
 ```
-The theory can be found in Section 2.4 of Jie's recent preprint (https://doi.org/10.22541/essoar.171412549.91013860/v1). The only parameter that we need to adjust is `-nw`, which determines the scale of the assumed interface region. For example, if `nw` is 2, the metal phase is defined by $a_i > 2w$ and the oxide phase is defined by $a_i < 2w$, where $a_i$ is the proximity of $i$th atom to the interface, and $w$ is the thickness of the interface fitted by the model.
+The theory can be found in Section 2.4 of Jie's recent preprint (https://doi.org/10.22541/essoar.171412549.91013860/v1). The only parameter that we need to adjust is `-nw`, which determines the scale of the assumed interface region. For example, if `nw` is 2, the metal phase is defined by $a_i > 2w$ and the oxide phase is defined by $a_i < 2w$, where $a_i$ is the proximity of ith atom to the interface, and $w$ is the thickness of the interface fitted by the model.
 
 usage: 
 ```
