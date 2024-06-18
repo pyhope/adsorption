@@ -71,7 +71,7 @@ optional arguments:
                         Default: must set!
   --mode MODE, -m MODE  Default: mass mode, k or mass, must set!
 ```
-A figure named `atomic_fraction_vs_proximity.png` will be generated after the analysis.
+A figure named `atomic_fraction_vs_proximity.png` will be generated after the analysis. The value of `-nw` does not affect this figure.
 
 ## To-do list:
 1. Summarize the pressure, temperature, and composition of all simulations into an Excel sheet.
