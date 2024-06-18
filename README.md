@@ -75,5 +75,5 @@ A figure named `atomic_fraction_vs_proximity.png` will be generated after the an
 
 ## To-do list:
 1. Summarize the pressure, temperature, and composition of all simulations into an Excel sheet.
-2. Upload the trajectories to the cluster or analysis them following the above instruction.
+2. Upload all trajectories to the Xi'an cluster. For large files, first analysis them following the above instruction.
 3. Get `atomic_fraction_vs_proximity.png` for each system and label it with pressure, temperature, and composition.
