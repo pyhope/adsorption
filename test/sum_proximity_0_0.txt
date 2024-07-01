@@ -1,0 +1,5 @@
+# /Users/yihangpeng/Desktop/research/projects/adsorption/adsorption/test/merge.xyz 
+#  nw = 2 
+#  solid liquid interface 
+#  id O           Mg           Fe           W          lw      chi
+0 12 85 159    16 87 153    3571 0 525    11 0 5        5.8344    0.1540

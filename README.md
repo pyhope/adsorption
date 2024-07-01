@@ -6,6 +6,7 @@ numpy
 matplotlib
 lmfit
 pytim
+MDAnalysis
 ```
 ## Code Usage
 1. Extract one frame from the MD trajectory for the subsequent calculation. e.g.:
