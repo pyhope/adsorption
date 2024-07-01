@@ -108,9 +108,6 @@ class GDSAnalyzer(object):
             fmt = '%d ' + '%d %d %d    '*len(self.ele_atomic_number) +'    %.4f'*2 # for each element, we have three phases
             np.savetxt(name,dat,fmt=fmt,
                         header='{0} \n {3} \n {1} \n {2}'.format(self.xyz,'solid liquid interface','id '+'           '.join(self.ele_chemical_symbol) +'          lw      chi', 'nw = {}'.format(self.nw)))   
-        self.save_prox_xyz()
-        self.plot_prox()
-        self.plot_gds()
 
     def analyze(self):
         """
